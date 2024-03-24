@@ -1,10 +1,16 @@
 ﻿namespace CSharp16_Dilagate_Event_Records__22_03
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
+            
+            Func<int, int> cube = x => x * x * x;
+
+           
+            int num = 3;
+
+            Console.WriteLine($"Cube of {num}: {cube(num)}");
         }
     }
 }
